@@ -7,7 +7,7 @@ class Coin:
     # The _ _init_ _ method initializes the
     # sideup data attribute with 'Heads'.
 
-    def __init__(self):
+    def __init__(self): #self controls that specific coin, the .sideup is an atttibute.
         self.sideup = 'Heads'
 
     # The toss method generates a random number
@@ -21,7 +21,7 @@ class Coin:
         else:
             self.sideup = 'Tails'
 
-    # The get_sideup method returns the value
+    # The get_sideup method returns the value, there are 2 types, get accessor method, set is mutators that changes
     # referenced by sideup.
 
     def get_sideup(self):

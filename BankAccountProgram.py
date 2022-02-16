@@ -4,10 +4,10 @@ import BankAccountClass as bc
 
 def main():
     
-   # Get the starting balance.
+   # Get the starting balance. What you get from the user
    start_bal = float(input('Enter your starting balance: '))
 
-   # Create a BankAccount object.
+   # Create a BankAccount object. Creating the instance
    savings = bc.BankAccount(start_bal)
 
    # Deposit the user's paycheck.

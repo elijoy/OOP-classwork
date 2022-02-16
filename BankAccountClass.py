@@ -14,7 +14,7 @@ class BankAccount:
       # account.
 
     def deposit(self, amount):
-        self.__balance += amount
+        self.__balance += amount #increasing the amount that the indivdual put in
 
       # The withdraw method withdraws an amount
       # from the account.
@@ -23,7 +23,7 @@ class BankAccount:
         if self.__balance >= amount:
             self.__balance -= amount
         else:
-            print('Error: Insufficient funds')
+            print('Error: Insufficient funds') #can't withdraw an amount you don't have
 
       # The get_balance method returns the
       # account balance.
